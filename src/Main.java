@@ -32,6 +32,27 @@ public class Main {
 
 
 
+            //задание 3
+
+        int sum1 = 15000;
+        int percent1 = 7;
+        int division1 = 100;
+        int years = 9;
+        int month = 12;
+        int totalMonths = years * month;
+
+        while (i >= totalMonths) {
+            sum1 = sum1 + sum1 / division1 * percent1;
+            if (i % 6 == 0)
+                i++;{
+                System.out.println("Месяц " + i + " ,сумма накоплений " + sum1);
+            }
+        }
+
+
+
+
+
         }
 
 
