@@ -24,7 +24,10 @@ public class Main {
         while (sum <= collect) {
             sum = sum + sum / division * percent;
             i++;
-            System.out.println("Месяц " + i + " ,сумма накоплений " + sum);
+            if (i % 6 == 0) {
+                System.out.println("Месяц " + i + " ,сумма накоплений " + sum);
+            }   // через if вывели каждый 6 месяц
+
         }
 
 
