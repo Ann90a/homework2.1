@@ -24,7 +24,7 @@ public class Main {
         while (sum <= collect) {
             sum = sum + sum / division * percent;
             i++;
-            System.out.println(i + " " + sum);
+            System.out.println("Месяц " + i + " ,сумма накоплений " + sum);
         }
 
 
