@@ -49,6 +49,24 @@ public class Main {
             }
         }
 
+        //задание 4
+
+
+        int date  = 1;
+        int date2 = 31;
+
+        while (date <= date2) {
+            date++;
+            if (date % 7 == 0){
+                System.out.println("Сегодня пятница, " + date + "-е число. Необходимо подготовить отчет");
+            }
+
+
+
+
+        }
+
+
 
 
 
